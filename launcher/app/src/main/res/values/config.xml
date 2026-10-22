@@ -169,11 +169,13 @@
     <!-- The dock as its own row: a lighter band, no names under the tiles. -->
     <bool name="dock_row">true</bool>
     <!-- Inputs, Wi-Fi and Settings folded into one round gear at the top right. -->
-    <bool name="top_menu">false</bool>
+    <!-- 将设置、网络与输入源三个按钮收纳合并为一个精致的圆角齿轮，让主屏视线更加专注于 4 个主应用。 -->
+    <bool name="top_menu">true</bool>
     <!-- A direct Launcher settings action instead of TV Settings in the header. -->
     <bool name="launcher_settings_button">false</bool>
     <!-- The dock band as light frosted glass. -->
-    <bool name="dock_glass">false</bool>
+    <!-- Dock 栏开启轻质毛玻璃透明磨砂效果 -->
+    <bool name="dock_glass">true</bool>
     <!-- A reorder button (two arrows) in the top bar. -->
     <bool name="reorder_button">false</bool>
     <!-- Wi-Fi and Settings as round icon-only buttons. -->
@@ -188,7 +190,8 @@
     <bool name="show_inputs_pill">true</bool>
     <!-- Names under every tile, not only the focused one. -->
     <bool name="always_show_names">false</bool>
-    <bool name="wallpaper_true_color">false</bool>
+    <!-- 索尼 X90K 性能强劲，启用 32 位高品质色深与弹性过渡动画 -->
+    <bool name="wallpaper_true_color">true</bool>
     <bool name="wallpaper_captions">false</bool>
 
     <!-- 【核心修改项】：设置为 true，长按 OK 键即弹出 Move（移动）与排序菜单 -->
@@ -217,13 +220,16 @@
     <bool name="focus_overshoot">true</bool>
     <bool name="show_stats">false</bool>
 
-    <integer name="sky_intensity">0</integer>
+    <!-- 昼夜光线强度（推荐设为 40~50，带来自然柔和的暗光层次感） -->
+    <integer name="sky_intensity">45</integer>
     <string name="latitude" translatable="false"></string>
     <string name="longitude" translatable="false"></string>
 
-    <bool name="cinematic_home">false</bool>
+    <!-- 开启电影级顶部海报画廊（Apple TV 质感核心） -->
+    <bool name="cinematic_home">true</bool>
     <bool name="ambient_glow">true</bool>
-    <bool name="app_glow">false</bool>
+    <!-- 为所有聚焦卡片渲染对应色彩的氛围光晕 -->
+    <bool name="app_glow">true</bool>
     <integer name="home_idle_clock_minutes">0</integer>
     <string name="glow_style" translatable="false">radial</string>
 </resources>
