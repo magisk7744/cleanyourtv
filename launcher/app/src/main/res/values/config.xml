@@ -19,7 +19,7 @@
     <string-array name="dock_apps">
         <item>com.sony.dtv.tvx</item>
         <item>com.ktcp.tvvideo</item>
-        <item>com.hpplay.happyplay.aw</item>
+        <item>com.softmedia.receiver</item>
         <item>com.trim.tv</item>
     </string-array>
     <!-- With fewer dock_apps than columns (or a dock app that is not installed), the free dock slots take
